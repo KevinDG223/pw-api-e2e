@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "discountPercentage": {
+      "type": "number"
+    },
+    "stock": {
+      "type": "number"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "price",
+    "discountPercentage",
+    "stock",
+    "rating",
+    "description",
+    "category"
+  ]
+}
